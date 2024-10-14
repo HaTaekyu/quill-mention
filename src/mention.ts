@@ -468,6 +468,7 @@ export class Mention extends Module<MentionOption> {
   }
 
   selectItem() {
+    console.log('수정됐나')
     if (this.itemIndex === -1) {
       return;
     }
